@@ -111,10 +111,11 @@ const Basket = observer(() => {
 						<div className='d-flex justify-content-end p-2 mt-3'>
 							<div className='d-flex align-items-center'>
 								<div className='text-nowrap  me-3'>
-									<b>Итоговая цена: {finalPrice} ₽</b>
+									<b>Цена: {finalPrice} ₽</b>
 								</div>
 								<Form.Control
 									value={address}
+									style={{ minWidth: '135px' }}
 									onChange={e => {
 										const value = e.target.value;
 										setAddress(value);
