@@ -1,0 +1,17 @@
+.component-item {
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.component-item__info {
+    padding-top: 20px;
+}
+
+.component-item__title {
+    color: black;
+    font-weight: 400;
+}
